@@ -1,0 +1,12 @@
+databaseChangeLog:
+
+
+- include:
+    file:  ../burgers/burger-changelog.yaml
+  #  relativeToChangelogFile:  true
+- include:
+    file:  ../kebabs/kebab-changelog.yaml
+   # relativeToChangelogFile:  true
+- include:
+    file:  ../pizzas/pizza-changelog.yaml
+   # relativeToChangelogFile:  true
